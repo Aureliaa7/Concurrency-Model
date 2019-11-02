@@ -48,7 +48,7 @@ public class MainClass {
 	
 						long startTime = System.nanoTime();
 						solution1(upperBound, noThreads, threads, writer1); 
-						//estimatedTime represents the needed time in seconds for computing the prime numbers using the first solution
+						//estimatedTime represents the needed time in nano seconds for computing the prime numbers using the first solution
 						long estimatedTime = System.nanoTime() - startTime;
 						System.out.println("\n\nTime elapsed: " + estimatedTime + " nano seconds");
 						break;
@@ -68,7 +68,7 @@ public class MainClass {
 						threads = new Thread[noThreads];
 						long startTime1 = System.nanoTime();
 						solution1(upperBound, noThreads, threads, writer1); 
-						//estimatedTime represents the needed time in seconds for computing the prime numbers using the first solution
+						//estimatedTime represents the needed time in nano seconds for computing the prime numbers using the first solution
 						long estimatedTime1 = System.nanoTime() - startTime1;
 						System.out.println("\n\nTime elapsed: " + estimatedTime1 + " nano seconds");
 						break;
